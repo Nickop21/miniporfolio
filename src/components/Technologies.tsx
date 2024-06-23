@@ -21,7 +21,10 @@ function Technologies() {
           </h4>
           <div className="flex gap-3 pt-5 flex-col sm:flex-row items-center justify-center flex-wrap">
             {skillData.Language.map((data) => (
-              <Skillbtn img={data.image} text={data.title} />
+              <div key={data.image}>
+
+                <Skillbtn img={data.image} text={data.title} />
+              </div>
             ))}
           </div>
         </div>
@@ -32,7 +35,10 @@ function Technologies() {
           </h4>
           <div className="flex flex-wrap flex-col sm:flex-row items-center justify-center gap-3 pt-5">
             {skillData.Libraries.map((data) => (
-              <Skillbtn img={data.image} text={data.title} />
+              <div key={data.image}>
+
+                <Skillbtn img={data.image} text={data.title} />
+              </div>
             ))}
           </div>
         </div>
@@ -42,7 +48,10 @@ function Technologies() {
           </h4>
           <div className="flex flex-wrap flex-col sm:flex-row items-center justify-center gap-3 pt-5">
             {skillData.Tools.map((data) => (
-              <Skillbtn img={data.image} text={data.title} />
+              <div key={data.image}>
+
+                <Skillbtn img={data.image} text={data.title} />
+              </div>
             ))}
           </div>
         </div>
