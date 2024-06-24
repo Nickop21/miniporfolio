@@ -38,14 +38,14 @@ setactiveindex(index)
         <div className='hidden sm:flex'>
           <nav className=" bg-[#222] p-1 shadow-[1px_1px_7px_rgba(0,0,0,.16)] rounded-full">
             <ul className="flex items-center">
-              <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75    ${activeindex==1 ?"bg-white animate-pulse" : "text-white"}`} onClick={()=>activenav(1)}>
-                <Link href="/">Home</Link>
+              <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75    ${activeindex==1 ?"bg-white animate-pulse" : "text-white"}`} >
+                <Link href="/" onClick={()=>activenav(1)}>Home</Link>
               </li>
-              <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75 ${activeindex==2 ?"bg-white animate-pulse" : "text-white"}`} onClick={()=>activenav(2)}>
-                <Link href="#projects">Projects</Link>
+              <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75 ${activeindex==2 ?"bg-white animate-pulse" : "text-white"}`} >
+                <Link href="#projects" onClick={()=>activenav(2)}>Projects</Link>
               </li>
-              <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75 ${activeindex==3 ?"bg-white animate-pulse" : "text-white"}`} onClick={()=>activenav(3)}>
-                <Link href="#skills">Skills</Link>
+              <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75 ${activeindex==3 ?"bg-white animate-pulse" : "text-white"}`} >
+                <Link href="#skills" onClick={()=>activenav(3)}>Skills</Link>
               </li>
             </ul>
           </nav>
@@ -66,14 +66,14 @@ setactiveindex(index)
         <div className="pt-2">
           <nav className="bg-[#222] p-1 shadow-[1px_1px_7px_rgba(0,0,0,.16)] rounded-full">
             <ul className="flex items-center justify-between">
-            <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75 ${activeindex==11 ?"bg-white animate-pulse" : "text-white"}`} onClick={()=>activenav(11)}>
-            <Link href="/">Home</Link>
+            <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75 ${activeindex==11 ?"bg-white animate-pulse" : "text-white"}`} >
+            <Link href="/" onClick={()=>activenav(11)}>Home</Link>
               </li>
-              <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75 ${activeindex==21 ?"bg-white animate-pulse" : "text-white"}`} onClick={()=>activenav(21)}>
-              <Link href="#projects">Projects</Link>
+              <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75 ${activeindex==21 ?"bg-white animate-pulse" : "text-white"}`} >
+              <Link href="#projects" onClick={()=>activenav(21)}>Projects</Link>
               </li>
-              <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75 ${activeindex==31 ?"bg-white animate-pulse" : "text-white"}`} onClick={()=>activenav(31)}>
-                <Link href="#skills">Skills</Link>
+              <li className={`font-medium text-base px-6 py-1 rounded-full ease-linear delay-75 ${activeindex==31 ?"bg-white animate-pulse" : "text-white"}`} >
+                <Link href="#skills" onClick={()=>activenav(31)}>Skills</Link>
               </li>
             </ul>
           </nav>

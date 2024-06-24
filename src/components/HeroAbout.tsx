@@ -30,10 +30,10 @@ function HeroAbout() {
           creations. Explore, Connect, Inspire. 🚀
         </p>
         <div className="mt-6 flex gap-2 flex-wrap">
-         <CustomBtn title="Linkedin" link="https://ui.aceternity.com/docs/install-nextjs"/>
-         <CustomBtn title="Github" link="https://ui.aceternity.com/docs/install-nextjs"/>
-         <CustomBtn title="Email" link="https://ui.aceternity.com/docs/install-nextjs"/>
-         <CustomBtn title="Leetcode" link="https://ui.aceternity.com/docs/install-nextjs"/>
+         <CustomBtn title="Linkedin" link="https://www.linkedin.com/in/nitin-yadav-8615a5195/"/>
+         <CustomBtn title="Github" link="https://github.com/Nickop21"/>
+         <CustomBtn title="Email" link="mailto:ny8244@gmail.com"/>
+         <CustomBtn title="Leetcode" link="https://leetcode.com/u/nick_21/"/>
 
           
         </div>

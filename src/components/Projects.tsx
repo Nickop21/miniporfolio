@@ -115,7 +115,7 @@ function Projects() {
 
                     {/* links */}
                     <div className="absolute  bottom-3 right-0 flex gap-5 items-center w-[100px]">
-                      <Link href={""} target="_blank">
+                      <Link href={project.github} target="_blank">
                         <img
                           src="/assests/project/git.svg"
                           alt="git"
@@ -123,7 +123,7 @@ function Projects() {
                           width={25}
                         />
                       </Link>
-                      <Link href={""} target="_blank">
+                      <Link href={project.website} target="_blank" className="animate-bounce hover:animate-none ">
                         <img
                           src="/assests/project/link.svg"
                           alt="website"
