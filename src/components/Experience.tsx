@@ -23,7 +23,7 @@ function Experience() {
 
         <div className="flex flex-col text-sm bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 mr-2">
             <p className="md:text-2xl mb-2">jan 2023 - April 2024</p>
-            <p>Gururam</p>
+            <p>Gurugram</p>
           </div>
       </div>
     </div>
