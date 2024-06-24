@@ -17,7 +17,7 @@ function HeroAbout() {
           Hey <span className="text-amber-400">👋</span>
         </h1>
         <h2 className="mt-2  text-3xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          I&apos;m a Nitin Yadav
+          I&apos;m Nitin Yadav
         </h2>
         <h3 className="mt-2  text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
           Your
