@@ -54,7 +54,7 @@ setactiveindex(index)
           <Link
             target="_blank"
             className="flex items-center py-1.5 px-3 xl:px-5  gap-1"
-            href="/assets/Satyam_FDE.pdf"
+            href="/assests/resume/nitin-resume.pdf"
           >
             {/* <img alt="down arrow" loading="lazy" width="36" height="32" decoding="async" data-nimg="1" style="color:transparent" src="/assets/document-white.svg"/> */}
             <div className="text-white text-base font-medium">Resume</div>
